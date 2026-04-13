@@ -54,9 +54,31 @@ li{
 }
 th{
     background-color: rgb(203, 206, 23);
-    c
+    
 }
 td{
     background-color: rgb(240, 180, 112);
     
+}
+a:hover {
+    color: red;
+}
+nav a {
+    text-decoration: none;
+}
+form {
+    width: 400px;
+    margin: 0 auto;
+}
+form label {
+    display: inline-block;
+    width: 100%;
+    
+    
+}
+
+form input,
+form textarea,
+form select {
+    width: 200px;
 }
